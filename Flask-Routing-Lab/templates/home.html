@@ -2,13 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ebay</title>
-    <h1>ebay</h1>
-    <h2 class = "green">The best shopping website in the world, here you can find the best items in the market for the best price!!</h2>
+    <title class = "image">ebay</title>
+    <h1><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/EBay_logo.svg/640px-EBay_logo.svg.png"></h1>
+    <h2>The best shopping website in the world, here you can find the best items in the market for the best price!!</h2>
+    <h3> Our products! </h3>
 </head>
 <body>
-
-
+    <h5>Smartphones: </h5>
+    <a href = "{{url_for('product')}}"> Buy now </a>
+    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-pro-max-blue-select?wid=940&hei=1112&fmt=png-alpha&.v=1645552346295" class = "image">
+    <img src="https://images.samsung.com/is/image/samsung/p6pim/levant/2202/gallery/levant-galaxy-s22-ultra-s908-413037-sm-s908edrgmea-thumb-530970207" class = "image">
+    <img src="https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/mate40-pro/list-img/silver.png" class = "image" id = "img">
+    <img src="https://www.notebookcheck-cn.com/uploads/tx_nbc2/4_zu_3_moto_g31.jpg" class = "image" id = "imge">
+    <h4> Football Shirts: </h4>
+    <a href = "{{url_for('cart')}}"> Add to Cart </a>
+    <img src="https://m.media-amazon.com/images/I/51WF0G6xTML._AC_SX385._SX._UX._SY._UY_.jpg" class = "image">
+    <img src="https://m.media-amazon.com/images/I/51p-URLT21L._AC_UX385_.jpg" class = "image">
+    <img src="https://m.media-amazon.com/images/I/71SW9CZDxuL._AC_UL320_.jpg" class = "image">
+    <img src="https://m.media-amazon.com/images/I/71WNll1vXzL._AC_UL320_.jpg" class = "image">
 
 
 
@@ -17,12 +28,15 @@
 
 
 <style> 
-    h1 {text-indent: 100px;}
-    h2 {color: green;} 
-
-
-
-
+    h1 {text-align: center;font-family: "Times New Roman", Times ;}
+    h2 {text-align: center;color: green; font-size: 25px;} 
+    h3 {text-align: center;color:  blue;}
+    h4 {color: blue; text-indent: 100px; font-size: 30px}
+    .image {width: 300px;}
+    #img {width: 250px}
+    #imge {width: 450px}
+    h5 {color: red; text-indent: 100px; font-size: 30px}
+    a {color: blue; text-indent: 100px; font-size: 30px}
 
 </style>
 </body>
